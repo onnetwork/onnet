@@ -203,7 +203,7 @@ a:hover {
 /*------/ Socials /------*/
 
 .socials {
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
 }
 
 .socials ul li {
@@ -216,7 +216,7 @@ a:hover {
   font-size: 1.7rem;
   border-radius: 50%;
   line-height: 1.4;
-  margin: 0 15px 0 0;
+  margin: 0 12px 0 0;
   box-shadow: 0 0 0 3px #0078ff;
   transition: all 500ms ease;
 }
@@ -769,9 +769,9 @@ a:hover {
 //--//-->   NEWSFEED
 ======================================*/
 
-.slido{
+/*.slido{
   width: 100%;
-}
+}*/
 /*.news{
   background: grey;
 }*/
@@ -1236,4 +1236,10 @@ footer .credits a {
   .back-to-top {
     bottom: 15px;
   }
+}
+.card-text{
+  color: white;
+  text-shadow: 5px;
+  font-weight: bold;
+  font-size: 15px;
 }
