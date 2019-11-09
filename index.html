@@ -493,11 +493,11 @@
                     </h5>
                   </div>
                   <div>
-                      <form action="index.html" method="post" class="contactForm" data-netlify="true" netlify-honeypot="bot-field" netlify>
-                      	<p style="visibility: hidden">
-                      		<label>Dont fill this up</label><input type="" name=bot-field/>
+                      <form action="" method="post" role="form" class="contactForm" data-netlify="true" netlify-honeypot="bot-field" netlify>
+                   <p style="visibility: hidden">
+                          <label>Dont fill this up</label><input type="" name=bot-field/>
                       <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <!-- <div id="errormessage"></div> -->
+                      <div id="errormessage"></div>
                       <div class="row">
                         <div class="col-md-12 mb-3">
                           <div class="form-group">
@@ -524,17 +524,15 @@
                           </div>
                         </div>
                         <div class="col-md-12 mb-3">
-                        	<div class="field">
-                        		<input type="file" name="myfile" id="myfile"  placeholder="Upload File" rows="7" />
-                        	</div>
-                        	<div class="field">
-                        		<div data-netlify-recaptcha="false">
-                        			
-                        		</div>
-                        	</div>
-                        </div>
+                          <div class="field">
+                            <input type="file" name="myfile" id="myfile"  placeholder="Upload File" rows="7" />
+                          </div>
+                          <div class="field">
+                            <div data-netlify-recaptcha="false">
+                              
+                            </div>
                         <div class="col-md-12">
-                          <button type="submit" value="Submit" class="button button-a button-big button-rouded">Send Message</button>
+                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
                         </div>
                       </div>
                     </form>
