@@ -493,7 +493,9 @@
                     </h5>
                   </div>
                   <div>
-                      <form method="post" class="contactForm" data-netlify="true">
+                      <form method="post" class="contactForm" data-netlify="true" netlify-honeypot="bot-field" netlify>
+                      	<p style="visibility: hidden">
+                      		<label>Dont fill this up</label><input type="" name=bot-field/>
                       <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->
                       <!-- <div id="errormessage"></div> -->
                       <div class="row">
@@ -532,7 +534,7 @@
                         	</div>
                         </div>
                         <div class="col-md-12">
-                          <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          <button type="submit" value="Submit" class="button button-a button-big button-rouded">Send Message</button>
                         </div>
                       </div>
                     </form>
